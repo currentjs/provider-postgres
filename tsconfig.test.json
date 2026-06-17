@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist-test",
+    "rootDir": ".",
+    "declaration": false,
+    "baseUrl": ".",
+    "paths": {
+      "@currentjs/provider": ["../provider/dist/index"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": []
+}
