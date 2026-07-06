@@ -1,6 +1,8 @@
 import { Client, ClientConfig, QueryResult as PgQueryResult } from 'pg';
 import { IProvider, ISqlProvider, SQLResult, SqlParam } from '@currentjs/provider';
 
+export type { IProvider, ISqlProvider };
+
 /**
  * PostgreSQL connection configuration
  */
